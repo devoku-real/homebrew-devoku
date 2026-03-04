@@ -5,8 +5,8 @@ class DevokuParquet < Formula
   license :cannot_represent
 
   on_macos do
-    url "https://github.com/devoku-real/homebrew-devoku/releases/download/v1.0.0/devoku-parquet-v1.0.0-macos-x86_64.tar.gz"
-    sha256 "b346e1ff3fd0cb65abdc6e049c9a62b5f67f8f064607159b170d2870a8f072f4"
+    url "https://github.com/devoku-real/homebrew-devoku/releases/download/v1.0.0/devoku-parquet-v1.0.0-macos-universal.tar.gz"
+    sha256 "f51e9fba00ffd5f45e314a8ba09e1d9b8b14b88992aa5622013a6324420a5057"
   end
 
   def install
